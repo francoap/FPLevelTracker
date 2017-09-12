@@ -3,7 +3,7 @@ Level metadata tracking plugin for Unreal Engine 4
 
 ## Setup
 
-1. Set FPWorldSettings as the default world settings class in **Project Settings -> Engine -> General Settings **
+1. Set FPWorldSettings as the default world settings class in **Project Settings -> Engine -> General Settings**
 2. Restart the editor
 
 ## How to use
