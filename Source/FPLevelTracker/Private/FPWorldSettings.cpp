@@ -19,8 +19,11 @@ void AFPWorldSettings::PostEditChangeProperty(FPropertyChangedEvent& PropertyCha
 {
 	Super::PostEditChangeProperty(PropertyChangedEvent);
 
+	// One or more of this object properties were edited in editor
+
 	if (Thumbnail)
 	{
+		// User edited thumbnail texture reference so we generate the string path for the new texture asset
 		ThumbnailReference = Thumbnail->GetPathName();
 	}
 	else

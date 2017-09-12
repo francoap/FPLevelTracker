@@ -69,6 +69,7 @@ FFPLevelTrackerData UFPLevelTrackerBPLibrary::GenerateLevelTrackerDataFromAssetD
 	FString Thumbnail;
 	FString Meta;
 
+	// Here we return all of the level tracker tag values (properties declared as AssetRegistrySearchable in WorldSettings)
 	AssetData.GetTagValue<FText>(FName("Title"), Title);
 	AssetData.GetTagValue<FText>(FName("Description"), Description);
 	AssetData.GetTagValue<FString>(FName("Author"), Author);
