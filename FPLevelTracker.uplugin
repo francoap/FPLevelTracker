@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "FPLevelTracker",
+	"Description": "A level metadata tracking tool",
+	"Category": "Other",
+	"CreatedBy": "Franco Pulido",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FPLevelTracker",
+			"Type": "Runtime",
+      "LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
